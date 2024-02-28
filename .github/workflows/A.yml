@@ -1,0 +1,24 @@
+name: Create and Publish Docker Image
+
+on:
+  workflow_call:
+    inputs:
+      image_name:
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:      
+      - uses: actions/checkout@v2
+      - run: echo "Hello pavan"
+     
+          
+          
+  do-something-else:
+    runs-on: ubuntu-latest
+
+    steps:
+    - run: echo "Hello"
