@@ -13,7 +13,7 @@ jobs:
 
     steps:      
       - uses: actions/checkout@v2
-      - run: echo "Hello pavan ${{inputs.image_name}}"
+      - run: echo "Hello pavan its me from dev branch other repo ${{inputs.image_name}}"
      
           
           
